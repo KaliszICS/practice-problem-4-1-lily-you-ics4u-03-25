@@ -4,24 +4,35 @@ public class PracticeProblem {
 
 	}
 
-	public static void q1() {
-		//Write question 1 code here
+	public class Rectangle{
+		//instance Variables
+		private double length;
+		private double width;
+	
+		//constructor
+		public Rectangle(double length, double width){
+			this.length = length;
+			this.width = width;
+		}
+	
+		//getters
+		public double getLength(){
+			return this.length;
+		}
+	
+		public double getWidth(){
+			return this.width;
+		}
+	
+		//methods
+		public double area(){
+			return this.length*this.width;
+		}
+	
+		public double perimeter(){
+			return 2*(this.length + this.width);
+		}
 	}
-
-	public static void q2() {
-		//Write question 2 code here
-	}
-
-	public static void q3() {
-		//Write question 3 code here
-	}
-
-	public static void q4() {
-		//Write question 4 code here
-	}
-
-	public static void q5() {
-		//Write question 5 code here
-	}
+	
 
 }
